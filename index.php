@@ -31,7 +31,7 @@
   <main class="flex-1 p-8 overflow-y-auto">
     <h1 class="text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">ALL TEMPLATES</h1>
     <section id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-      <?php include 'generate-gallery.php'; ?>
+      <?php include 'api/generate-gallery.php'; ?>
     </section>
   </main>
 

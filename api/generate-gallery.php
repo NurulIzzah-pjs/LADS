@@ -1,5 +1,5 @@
 <?php
-$directory = __DIR__ . '/assets/images/';
+$directory = dirname(__DIR__) . '/assets/images/';
 $baseURL = '/assets/images/';
 
 $files = scandir($directory);
