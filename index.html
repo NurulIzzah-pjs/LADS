@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>All Templates Gallery</title>
   <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="/assets/css/footer.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 
 
@@ -32,26 +33,44 @@
   </aside>
 
   <!-- Main Content -->
-  <main class="relative z-10 flex-1 p-8 overflow-y-auto">
+<main class="flex-1 flex flex-col overflow-y-auto relative z-10">
+  <button
+    id="toggleSidebar"
+    class="fixed top-4 left-56 z-50 bg-[#a27c67] text-white px-3 py-1 rounded md:hidden shadow-lg transition-all duration-300"
+  >
+    ☰
+  </button>
 
-       <button
-  id="toggleSidebar"
-  class="fixed top-4 left-56 z-50 bg-[#a27c67] text-white px-3 py-1 rounded md:hidden shadow-lg transition-all duration-300"
->
-  ☰
-</button>
+  <h1 id="galleryTitle" class="mt-12 text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">
+    ALL TEMPLATES
+  </h1>
 
+  <section id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-8">
+    <!-- JS will populate this -->
+  </section>
 
+  <!-- ✅ Move footer here so it shows after scrolling -->
+  <footer>
+    <div class="social-icons" aria-label="Social media links">
+      <a href="https://x.com/mephistomum" aria-label="Twitter" target="_blank" rel="noopener" class="social-icon twitter" role="link">
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.tiktok.com/@mephistomum?_t=ZS-8y16ezVy7xn&_r=1" aria-label="TikTok" target="_blank" rel="noopener" class="social-icon tiktok" role="link">
+        <i class="fab fa-tiktok" aria-hidden="true"></i>
+      </a>
+      <a href="https://www.xiaohongshu.com/user/profile/6846c056000000001d01692b?xsec_token=YBg7WGpJ7udGqqOVYseXoNJawQKrxdMHXSESoFKQ2sw9M=&xsec_source=app_share&xhsshare=CopyLink&appuid=6846c056000000001d01692b&apptime=1752484209&share_id=428020edc61141b7b6f2f5b4ab641665" aria-label="YouTube" target="_blank" rel="noopener" class="social-icon youtube" role="link">
+        <i class="fab fa-yt" aria-hidden="true"></i>
+      </a>
+    </div>
+    <div class="copyright-text" aria-label="Copyright information">
+      &copy; 2025 All rights reserved
+    </div>
+    <div class="username" aria-label="Username">
+      mephistomum
+    </div>
+  </footer>
+</main>
 
-
-    <h1 id="galleryTitle" class="text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">
-  ALL TEMPLATES
-</h1>
-
-    <section id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-      <!-- JS will populate this -->
-    </section>
-  </main>
     <canvas
   id="sakuraCanvas"
   style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
@@ -80,7 +99,6 @@
     }
   });
 </script>
-
-
 </body>
+
 </html>
