@@ -66,10 +66,16 @@
 // renderGallery("ALL");
 
 const imageList = [
-  "MC1.jpg", "MC2.jpg", "MC3.jpg", "MC4.jpg", "MC5.jpg",
-  "SYLUS1.jpg", "SYLUS2.jpg", "SYLUS3.jpg",
-  "ZAYNE1.jpg", "CALEB1.jpg", "RAFAYEL1.jpg", "XAVIER1.jpg"
+  "CALEB1_UNIV1.jpg", "CALEB2.jpg", "CALEB3_UNIV2.jpg", "CALEB4_UNIV3.jpg",
+  "MC1.jpg", "MC2.jpg", "MC3.jpg", "MC4.jpg", "MC5.jpg", "MC6.jpg", "MC7.jpg", "MC8.jpg", "MC9.jpg", "MC10.jpg", "MC11.jpg", "MC12.jpg",
+  "RAFAYEL1_UNIV1.jpg", "RAFAYEL2_UNIV2.jpg",
+  "SYLUS1.jpg", "SYLUS2.jpg", "SYLUS3.jpg", "SYLUS4.jpg", "SYLUS5.jpg",
+  "SYLUS6_UNIV1.jpg", "SYLUS7.jpg", "SYLUS8.jpg", "SYLUS9.jpg", "SYLUS9_UNIV2.jpg",
+  "SYLUS10.jpg", "SYLUS11.jpg", "SYLUS12_UNIV3.jpg", "SYLUS13.jpg", "SYLUS14.jpg", "SYLUS15_UNIV4.jpg", "SYLUS16.jpg", "SYLUS17.jpg",
+  "XAVIER1_UNIV1.jpg", "XAVIER2_UNIV2.jpg",
+  "ZAYNE1_UNIV1.jpg", "ZAYNE2.jpg", "ZAYNE3_UNIV2.jpg"
 ];
+
 
 function renderGallery(filter = "ALL") {
   const gallery = document.getElementById("gallery");
