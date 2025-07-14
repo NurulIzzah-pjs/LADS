@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Templates Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white min-h-screen flex flex-col md:flex-row">
+
+  <!-- Sidebar -->
+  <aside class="flex flex-col items-center bg-[#a27c67] text-white w-full md:w-52 min-h-screen p-6 space-y-10 overflow-y-auto">
+    <div class="mb-2">
+      <div class="w-24 h-24 rounded-xl overflow-hidden bg-white p-2 cursor-default">
+        <img src="/assets/images/logo.png" alt="Logo" class="w-full h-full object-contain" loading="lazy" onerror="this.style.display='none'" />
+      </div>
+    </div>
+    <nav class="flex flex-col w-full space-y-3 text-sm font-semibold tracking-wide">
+      <button class="bg-[#d4bfaf] text-[#7e624a] rounded-full w-full py-2" disabled>ALL</button>
+      <button class="hover:bg-[#bb987c] rounded-full w-full py-2">MC</button>
+      <button class="hover:bg-[#bb987c] rounded-full w-full py-2">SYLUS</button>
+      <button class="hover:bg-[#bb987c] rounded-full w-full py-2">ZAYNE</button>
+      <button class="hover:bg-[#bb987c] rounded-full w-full py-2">CALEB</button>
+      <button class="hover:bg-[#bb987c] rounded-full w-full py-2">RAFAYEL</button>
+      <button class="hover:bg-[#bb987c] rounded-full w-full py-2">XAVIER</button>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-1 p-8 overflow-y-auto">
+    <h1 class="text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">ALL TEMPLATES</h1>
+    <section id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+      <?php include 'generate-gallery.php'; ?>
+    </section>
+  </main>
+
+  <script src="/assets/js/images.js"></script>
+</body>
+</html>

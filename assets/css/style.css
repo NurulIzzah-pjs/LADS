@@ -1,0 +1,8 @@
+/* Scrollbar for sidebar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a27c67;
+  border-radius: 10px;
+}
