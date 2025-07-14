@@ -76,7 +76,7 @@ const imageList = [
   "ZAYNE1_UNIV1.PNG", "ZAYNE2.jpg", "ZAYNE3_UNIV2.jpg",
 
     // New from second image
-  "CALEB5.jpg", "CALEB7.jpg", "CALEB8_UNIV6.jpg", "CALEB9_UNIV7.jpg", "CALEB10.jpg",
+  "CALEB5.jpg","CALEB6_UNIV5.jpg", "CALEB7.jpg", "CALEB8_UNIV6.jpg", "CALEB9_UNIV7.jpg", "CALEB10.jpg",
   "COUPLE1F.jpg", "COUPLE1M.jpg", "COUPLE2F.jpg", "COUPLE2M.jpg",
   "MC13.jpg", "MC14.jpg", "MC15.jpg", "MC16.jpg", "MC17.jpg", "MC18.jpg", "MC19.jpg", "MC20.jpg", "MC21.jpg", "MC22.jpg", "MC23.jpg", "MC24.jpg", "MC25.jpg", "MC26.jpg", "MC27.jpg", "MC28.jpg", "MC29.jpg", "MC30_UNIV6.jpg",
   "RAFAYEL3.jpg", "RAFAYEL5_UNIV6.jpg", "RAFAYEL6_UNIV5.jpg", "RAFAYEL7.jpg",
