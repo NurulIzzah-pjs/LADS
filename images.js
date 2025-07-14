@@ -98,10 +98,22 @@ function renderGallery(filter = "ALL") {
   });
 }
 
+
+
 document.querySelectorAll("nav button").forEach(button => {
   button.addEventListener("click", () => {
     const category = button.textContent.trim().toUpperCase();
     renderGallery(category);
+
+    // 🔄 Reset all buttons
+    document.querySelectorAll("nav button").forEach(btn => {
+      btn.classList.remove("bg-[#d4bfaf]", "text-[#7e624a]");
+      btn.removeAttribute("disabled");
+    });
+
+    // ✅ Highlight clicked button
+    button.classList.add("bg-[#d4bfaf]", "text-[#7e624a]");
+    button.setAttribute("disabled", true);
   });
 });
 
