@@ -85,7 +85,7 @@ const imageList = [
   "SYLUS31.jpg", "SYLUS32.jpg", "SYLUS33_UNIV5.jpg", "SYLUS34.jpg", "SYLUS35.jpg", "SYLUS36.jpg", "SYLUS37_UNIV6.jpg", "SYLUS38.jpg", "SYLUS39.jpg", "SYLUS40.jpg", "SYLUS41.jpg", "SYLUS42.jpg",
   "SYLUS43.jpg", "SYLUS44.jpg", "SYLUS45.jpg", "SYLUS46.jpg", "SYLUS47.jpg", "SYLUS48.jpg", "SYLUS49.jpg", "SYLUS50_UNIV7.jpg", "SYLUS51.jpg", "SYLUS52.jpg", "SYLUS53.jpg", "SYLUS54.jpg", "SYLUS55.jpg",
   "SYLUS56.jpg", "SYLUS57.jpg", "SYLUS58.jpg", "SYLUS59.jpg", "SYLUS60.jpg", "SYLUS61.jpg", "SYLUS63.jpg", "SYLUS64.jpg", "SYLUS65.jpg", "SYLUS66.jpg",
-  "XAVIER4_UNIV6.jpg", "XAVIER5_UNIV7.jpg",
+  "XAVIER3_UNIV5.jpg","XAVIER4_UNIV6.jpg", "XAVIER5_UNIV7.jpg",
   "ZAYNE4_UNIV5.jpg", "ZAYNE5_UNIV6.jpg", "ZAYNE6.jpg", "ZAYNE7_UNIV7.jpg"
 ];
 
