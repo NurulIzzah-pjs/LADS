@@ -81,9 +81,13 @@ function renderGallery(filter = "ALL") {
   const gallery = document.getElementById("gallery");
   gallery.innerHTML = "";
 
-  const filtered = imageList.filter(filename =>
-    filter === "ALL" || filename.toUpperCase().startsWith(filter)
-  );
+  const filtered = imageList.filter(filename => {
+    const upperFilename = filename.toUpperCase();
+
+    if (filter === "ALL") return true;
+    if (filter === "UNIV") return upperFilename.includes("_UNIV");
+    return upperFilename.startsWith(filter);
+  });
 
   filtered.forEach(filename => {
     const imageURL = `/assets/images/${filename}`;
@@ -103,6 +107,7 @@ function renderGallery(filter = "ALL") {
     gallery.appendChild(article);
   });
 }
+
 
 
 
