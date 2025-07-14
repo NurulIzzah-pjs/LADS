@@ -13,7 +13,7 @@
 
 
   <!-- Sidebar -->
-  <aside class="w-52 bg-[#a27c67] text-white p-6 space-y-10 overflow-y-auto flex-shrink-0">
+  <aside id="sidebar"  class="w-52 bg-[#a27c67] text-white p-6 space-y-10 overflow-y-auto flex-shrink-0">
     <div class="mb-2">
       <div class="w-24 h-24 rounded-xl overflow-hidden bg-white p-2 cursor-default">
         <img src="/assets/images/logo.png" alt="Logo" class="w-full h-full object-contain" loading="lazy" onerror="this.style.display='none'" />
@@ -33,6 +33,10 @@
   <!-- Main Content -->
   <main class="relative z-10 flex-1 p-8 overflow-y-auto">
 
+        <button id="toggleSidebar" class="md:hidden absolute top-4 left-4 z-20 bg-[#a27c67] text-white px-3 py-1 rounded">
+      ☰
+    </button>
+
     <h1 id="galleryTitle" class="text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">
   ALL TEMPLATES
 </h1>
@@ -49,7 +53,14 @@
 <script src="sakura.js"></script>
 
   <script src="images.js"></script>
+  <script>
+    const toggleBtn = document.getElementById("toggleSidebar");
+    const sidebar = document.getElementById("sidebar");
 
+    toggleBtn.addEventListener("click", () => {
+      sidebar.classList.toggle("hidden");
+    });
+  </script>
 
 </body>
 </html>
