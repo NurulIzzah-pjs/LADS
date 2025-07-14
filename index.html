@@ -35,10 +35,11 @@
 
        <button
   id="toggleSidebar"
-  class="fixed top-4 left-56 z-50 bg-[#a27c67] text-white px-3 py-1 rounded md:hidden shadow-lg"
+  class="fixed top-4 left-56 z-50 bg-[#a27c67] text-white px-3 py-1 rounded md:hidden shadow-lg transition-all duration-300"
 >
   ☰
 </button>
+
 
 
 
@@ -58,14 +59,27 @@
 <script src="sakura.js"></script>
 
   <script src="images.js"></script>
-  <script>
-    const toggleBtn = document.getElementById("toggleSidebar");
-    const sidebar = document.getElementById("sidebar");
+<script>
+  const toggleBtn = document.getElementById("toggleSidebar");
+  const sidebar = document.getElementById("sidebar");
 
-    toggleBtn.addEventListener("click", () => {
-      sidebar.classList.toggle("hidden");
-    });
-  </script>
+  toggleBtn.addEventListener("click", () => {
+    sidebar.classList.toggle("hidden");
+
+    // Check if sidebar is now hidden
+    const sidebarHidden = sidebar.classList.contains("hidden");
+
+    // Update toggle button position
+    if (sidebarHidden) {
+      toggleBtn.classList.remove("left-56");
+      toggleBtn.classList.add("left-4");
+    } else {
+      toggleBtn.classList.remove("left-4");
+      toggleBtn.classList.add("left-56");
+    }
+  });
+</script>
+
 
 </body>
 </html>
