@@ -73,7 +73,7 @@ const imageList = [
   "SYLUS6_UNIV1.jpg", "SYLUS7.jpg", "SYLUS8.jpg", "SYLUS9_UNIV2.jpg",
   "SYLUS10.jpg", "SYLUS11.jpg", "SYLUS12_UNIV3.jpg", "SYLUS13.jpg", "SYLUS14.jpg", "SYLUS15_UNIV4.jpg", "SYLUS16.jpg", "SYLUS17.jpg",
   "XAVIER1_UNIV1.jpg", "XAVIER2_UNIV2.jpg",
-  "ZAYNE1_UNIV1.jpg", "ZAYNE2.jpg", "ZAYNE3_UNIV2.jpg"
+  "ZAYNE1_UNIV1.PNG", "ZAYNE2.jpg", "ZAYNE3_UNIV2.jpg"
 ];
 
 
