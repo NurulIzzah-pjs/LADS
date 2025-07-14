@@ -73,7 +73,20 @@ const imageList = [
   "SYLUS6_UNIV1.jpg", "SYLUS7.jpg", "SYLUS8.jpg", "SYLUS9_UNIV2.jpg",
   "SYLUS10.jpg", "SYLUS11.jpg", "SYLUS12_UNIV3.jpg", "SYLUS13.jpg", "SYLUS14.jpg", "SYLUS15_UNIV4.jpg", "SYLUS16.jpg", "SYLUS17.jpg",
   "XAVIER1_UNIV1.jpg", "XAVIER2_UNIV2.jpg",
-  "ZAYNE1_UNIV1.PNG", "ZAYNE2.jpg", "ZAYNE3_UNIV2.jpg"
+  "ZAYNE1_UNIV1.PNG", "ZAYNE2.jpg", "ZAYNE3_UNIV2.jpg",
+
+    // New from second image
+  "CALEB5.jpg", "CALEB7.jpg", "CALEB8_UNIV6.jpg", "CALEB9_UNIV7.jpg", "CALEB10.jpg",
+  "COUPLE1F.jpg", "COUPLE1M.jpg", "COUPLE2F.jpg", "COUPLE2M.jpg",
+  "MC13.jpg", "MC14.jpg", "MC15.jpg", "MC16.jpg", "MC17.jpg", "MC18.jpg", "MC19.jpg", "MC20.jpg", "MC21.jpg", "MC22.jpg", "MC23.jpg", "MC24.jpg", "MC25.jpg", "MC26.jpg", "MC27.jpg", "MC28.jpg", "MC29.jpg", "MC30_UNIV6.jpg",
+  "RAFAYEL3.jpg", "RAFAYEL5_UNIV6.jpg", "RAFAYEL6_UNIV5.jpg", "RAFAYEL7.jpg",
+  "RAFAYEL4_UNIV7.jpg",
+  "SYLUS18.jpg", "SYLUS19.jpg", "SYLUS20.jpg", "SYLUS21.jpg", "SYLUS22.jpg", "SYLUS23.jpg", "SYLUS24.jpg", "SYLUS25.jpg", "SYLUS26.jpg", "SYLUS27.jpg", "SYLUS28.jpg", "SYLUS29.jpg",
+  "SYLUS31.jpg", "SYLUS32.jpg", "SYLUS33_UNIV5.jpg", "SYLUS34.jpg", "SYLUS35.jpg", "SYLUS36.jpg", "SYLUS37_UNIV6.jpg", "SYLUS38.jpg", "SYLUS39.jpg", "SYLUS40.jpg", "SYLUS41.jpg", "SYLUS42.jpg",
+  "SYLUS43.jpg", "SYLUS44.jpg", "SYLUS45.jpg", "SYLUS46.jpg", "SYLUS47.jpg", "SYLUS48.jpg", "SYLUS49.jpg", "SYLUS50_UNIV7.jpg", "SYLUS51.jpg", "SYLUS52.jpg", "SYLUS53.jpg", "SYLUS54.jpg", "SYLUS55.jpg",
+  "SYLUS56.jpg", "SYLUS57.jpg", "SYLUS58.jpg", "SYLUS59.jpg", "SYLUS60.jpg", "SYLUS61.jpg", "SYLUS63.jpg", "SYLUS64.jpg", "SYLUS65.jpg", "SYLUS66.jpg",
+  "XAVIER4_UNIV6.jpg", "XAVIER5_UNIV7.jpg",
+  "ZAYNE4_UNIV5.jpg", "ZAYNE5_UNIV6.jpg", "ZAYNE6.jpg", "ZAYNE7_UNIV7.jpg"
 ];
 
 
