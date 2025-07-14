@@ -103,19 +103,25 @@ function renderGallery(filter = "ALL") {
 document.querySelectorAll("nav button").forEach(button => {
   button.addEventListener("click", () => {
     const category = button.textContent.trim().toUpperCase();
+
+    // ✅ Update image gallery
     renderGallery(category);
 
-    // 🔄 Reset all buttons
+    // ✅ Update title text
+    const titleElement = document.getElementById("galleryTitle");
+    titleElement.textContent = `${category} TEMPLATES`;
+
+    // ✅ Update active button styles
     document.querySelectorAll("nav button").forEach(btn => {
       btn.classList.remove("bg-[#d4bfaf]", "text-[#7e624a]");
       btn.removeAttribute("disabled");
     });
 
-    // ✅ Highlight clicked button
     button.classList.add("bg-[#d4bfaf]", "text-[#7e624a]");
     button.setAttribute("disabled", true);
   });
 });
+
 
 // Initial render
 renderGallery("ALL");

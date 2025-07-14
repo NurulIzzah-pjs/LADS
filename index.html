@@ -7,10 +7,13 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-white min-h-screen flex flex-col md:flex-row">
+
+
+<body class="flex h-screen overflow-hidden bg-white">
+
 
   <!-- Sidebar -->
-  <aside class="flex flex-col items-center bg-[#a27c67] text-white w-full md:w-52 min-h-screen p-6 space-y-10 overflow-y-auto">
+  <aside class="w-52 bg-[#a27c67] text-white p-6 space-y-10 overflow-y-auto flex-shrink-0">
     <div class="mb-2">
       <div class="w-24 h-24 rounded-xl overflow-hidden bg-white p-2 cursor-default">
         <img src="/assets/images/logo.png" alt="Logo" class="w-full h-full object-contain" loading="lazy" onerror="this.style.display='none'" />
@@ -28,13 +31,25 @@
   </aside>
 
   <!-- Main Content -->
-  <main class="flex-1 p-8 overflow-y-auto">
-    <h1 class="text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">ALL TEMPLATES</h1>
+  <main class="relative z-10 flex-1 p-8 overflow-y-auto">
+
+    <h1 id="galleryTitle" class="text-3xl text-center font-serif mb-10 select-none" style="color:#4b372a;">
+  ALL TEMPLATES
+</h1>
+
     <section id="gallery" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
       <!-- JS will populate this -->
     </section>
   </main>
+    <canvas
+  id="sakuraCanvas"
+  style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+         pointer-events: none; z-index: 0;"></canvas>
+
+<script src="sakura.js"></script>
 
   <script src="images.js"></script>
+
+
 </body>
 </html>
