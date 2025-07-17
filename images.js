@@ -101,6 +101,9 @@ const imageList = [
   { filename: "MC10.jpg", twitterLink: "https://x.com/mephistomum/status/1943287348952994063" },
   { filename: "MC11.jpg", twitterLink: "https://x.com/mephistomum/status/1943293135951663159" },
   { filename: "MC12.jpg", twitterLink: "https://x.com/mephistomum/status/1943170388886003954" },
+   { filename: "MC34_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" },
+   { filename: "MC35.jpg", twitterLink: "https://x.com/mephistomum/status/1945687731235180574" },
+   { filename: "MC36.jpg", twitterLink: "https://x.com/mephistomum/status/1945687731235180574" },
   { filename: "RAFAYEL1_UNIV1.jpg", twitterLink: "https://x.com/mephistomum/status/1944549367274438752" },
   { filename: "RAFAYEL2_UNIV2.jpg", twitterLink: "https://x.com/mephistomum/status/1943630155249009008" },
   { filename: "SYLUS3.jpg", twitterLink: "https://x.com/mephistomum/status/1941271218528845911" },
@@ -131,6 +134,7 @@ const imageList = [
   { filename: "CALEB8_UNIV6.jpg", twitterLink: "https://x.com/mephistomum/status/1920064491339034955" },
   { filename: "CALEB9_UNIV7.jpg", twitterLink: "https://x.com/mephistomum/status/1931540767702655191" },
   { filename: "CALEB10.jpg", twitterLink: "https://x.com/mephistomum/status/1931488023197421671" },
+   { filename: "CALEB11_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" },
   { filename: "COUPLE1F.jpg", twitterLink: "https://x.com/mephistomum/status/1916758508487475260" },
   { filename: "COUPLE1M.jpg", twitterLink: "https://x.com/mephistomum/status/1916758508487475260" },
   { filename: "COUPLE2F.jpg", twitterLink: "https://x.com/mephistomum/status/1919002263143805222" },
@@ -165,8 +169,9 @@ const imageList = [
   { filename: "RAFAYEL8.PNG", twitterLink: "https://x.com/mephistomum/status/1905208741743796377" },
   { filename: "RAFAYEL9.PNG", twitterLink: "https://x.com/mephistomum/status/1903733426362187963" },
   { filename: "RAFAYEL4_UNIV7.jpg", twitterLink: "https://x.com/mephistomum/status/1931540767702655191" },
+  { filename: "RAFAYEL10_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" },
+  { filename: "SYLUS19.jpg", twitterLink: "https://x.com/mephistomum/status/1945704542173343986" },
   { filename: "SYLUS18.jpg", twitterLink: "https://x.com/mephistomum/status/1907423316249633219" },
-  { filename: "SYLUS19.jpg", twitterLink: "https://x.com/mephistomum/status/1907447671528509600" },
   { filename: "SYLUS20.jpg", twitterLink: "https://x.com/mephistomum/status/1909193670357913820" },
   { filename: "SYLUS21.jpg", twitterLink: "https://x.com/mephistomum/status/1909199555922641035" },
   { filename: "SYLUS22.jpg", twitterLink: "https://x.com/mephistomum/status/1909203359007166779" },
@@ -220,14 +225,18 @@ const imageList = [
   { filename: "SYLUS70.PNG", twitterLink: "https://x.com/mephistomum/status/1896876166562394123" },
    { filename: "SYLUS71.jpg", twitterLink: "https://x.com/mephistomum/status/1941495453536878986" },
    { filename: "SYLUS72.jpg", twitterLink: "https://x.com/mephistomum/status/1927490189771063490" },
+   { filename: "SYLUS73_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" },
   { filename: "XAVIER3_UNIV5.jpg", twitterLink: "https://x.com/mephistomum/status/1918341272265474545" },
   { filename: "XAVIER4_UNIV6.jpg", twitterLink: "https://x.com/mephistomum/status/1920064491339034955" },
   { filename: "XAVIER5_UNIV7.jpg", twitterLink: "https://x.com/mephistomum/status/1931540767702655191" },
   { filename: "XAVIER6.PNG", twitterLink: "https://x.com/mephistomum/status/1905143930280357895" },
+    { filename: "XAVIER7.jpg", twitterLink: "https://x.com/mephistomum/status/1945277972778238092" },
+    { filename: "XAVIER8_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" },
   { filename: "ZAYNE4_UNIV5.jpg", twitterLink: "https://x.com/mephistomum/status/1918341272265474545" },
   { filename: "ZAYNE5_UNIV6.jpg", twitterLink: "https://x.com/mephistomum/status/1920064491339034955" },
   { filename: "ZAYNE6.jpg", twitterLink: "https://x.com/mephistomum/status/1924597497789612506" },
-  { filename: "ZAYNE7_UNIV7.jpg", twitterLink: "https://x.com/mephistomum/status/1931540767702655191" }
+  { filename: "ZAYNE7_UNIV7.jpg", twitterLink: "https://x.com/mephistomum/status/1931540767702655191" },
+  { filename: "ZAYNE8_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" }
 ];
 
 
