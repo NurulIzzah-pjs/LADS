@@ -43,9 +43,10 @@
     #a27c67,   /* mid brown */
     #d2b48c,   /* light tan (transition tone) */
     #f5f5dc,   /* cream */
+    #d2b48c,   /* light tan (transition tone) */
     #a27c67,   /* back to mid brown */
     #6e4f3c    /* back to dark brown */
   );
   background-size: 400% 400%;
-  animation: waveBackground 15s ease-in-out infinite;
+  animation: waveBackground 25s ease-in-out infinite;
 }
