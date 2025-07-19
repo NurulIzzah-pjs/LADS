@@ -42,14 +42,21 @@
 <!-- Sidebar -->
  <aside id="sidebar" class="relative wave-animated-bg z-20 w-52 text-white pl-3 pr-7 pt-6 pb-6 space-y-4 overflow-y-auto flex-shrink-0">
 
-  <div class="flex justify-center">
-    <div class="w-60 h-60 rounded-xl overflow-hidden p-0 cursor-default bg-transparent">
-      <img id="logoImage" src="/assets/images/logo.png" alt="Logo"
-           class="w-full h-full object-contain"
-           loading="lazy"
-           onerror="this.style.display='none'" />
-    </div>
+<div class="flex flex-col items-center space-y-2">
+  <!-- Last Updated Date -->
+  <div id="lastUpdated" class="text-xs text-white italic">
+    Last updated: {{LAST_UPDATED}}
   </div>
+
+  <!-- Logo -->
+  <div class="w-60 h-60 rounded-xl overflow-hidden p-0 cursor-default bg-transparent">
+    <img id="logoImage" src="/assets/images/logo.png" alt="Logo"
+         class="w-full h-full object-contain"
+         loading="lazy"
+         onerror="this.style.display='none'" />
+  </div>
+</div>
+
 
   <nav class="flex flex-col w-full space-y-3 text-sm font-semibold tracking-wide">
     <button class="bg-[#d4bfaf] text-[#7e624a] rounded-full w-full py-2" disabled onclick="changeLogo('logo.png')">ALL</button>
