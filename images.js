@@ -208,7 +208,7 @@ function renderGallery(filter = "ALL") {
   });
 
 filtered.forEach(image => {
-  const imageURL = `/assets/images/${image.filename}`;
+  const imageURL = `assets/images/${image.filename}`;
   const altText = image.filename.replace(/\.[^/.]+$/, "").replace(/_/g, " ");
   const twitterLink = image.twitterLink;
 
