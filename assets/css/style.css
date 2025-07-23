@@ -50,3 +50,10 @@
   background-size: 400% 400%;
   animation: waveBackground 25s ease-in-out infinite;
 }
+
+  .five-star-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
