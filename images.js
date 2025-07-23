@@ -16,7 +16,7 @@ const imageList = [
        { filename: "MC34_UNIV8.jpg", twitterLink: "https://x.com/mephistomum/status/1945655814469062761" },
     { filename: "MC36.jpg", twitterLink: "https://x.com/mephistomum/status/1945687731235180574" },
   { filename: "MC1.jpg", twitterLink: "https://x.com/mephistomum/status/1940706716460741024" },
-  { filename: "MC2.jpg", twitterLink: "#https://x.com/mephistomum/status/1940709217113174082" },
+  { filename: "MC2.jpg", twitterLink: "https://x.com/mephistomum/status/1940709217113174082" },
    { filename: "MC37.jpg", twitterLink: "https://x.com/mephistomum/status/1943956266533236847" },
    { filename: "MC42.jpg", twitterLink: "https://x.com/mephistomum/status/1947745975314833605" },
    { filename: "MC43.jpg", twitterLink: "https://x.com/mephistomum/status/1947745975314833605" },
